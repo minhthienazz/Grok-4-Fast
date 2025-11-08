@@ -1,20 +1,17 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Sổ Tay Ý Tưởng
 
-# Run and deploy your AI Studio app
+Ứng dụng web ghi chú cá nhân gọn nhẹ được xây dựng bằng React và Vite. Lưu trữ tự động vào LocalStorage giúp bạn nhanh chóng lưu ý tưởng, gắn thẻ nội dung và quản lý ghi chú đã ghim.
 
-This contains everything you need to run your app locally.
+## Tính năng chính
+- ✏️ Tạo và chỉnh sửa ghi chú với trình biên tập thân thiện.
+- 🏷️ Gắn thẻ cho ghi chú bằng cú pháp phân tách bằng dấu phẩy.
+- 📌 Ghim, sao chép nhanh hoặc nhân bản ghi chú chỉ với một cú nhấp chuột.
+- 🔍 Tìm kiếm ghi chú theo tiêu đề, nội dung hoặc thẻ.
+- 💾 Tự động lưu trữ vào trình duyệt, không cần tài khoản hoặc cấu hình API.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1T5CDjvii-D9xRO_oorw4Xod4YuG-gGSR
+## Chạy ứng dụng cục bộ
+1. Cài đặt phụ thuộc: `npm install`
+2. Khởi động máy chủ phát triển: `npm run dev`
+3. Mở trình duyệt tại địa chỉ được Vite cung cấp (mặc định http://localhost:5173)
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Ứng dụng chỉ sử dụng dữ liệu cục bộ nên bạn có thể tùy ý chỉnh sửa mã nguồn để phù hợp hơn với nhu cầu cá nhân.

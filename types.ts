@@ -1,11 +1,9 @@
-
-export enum Role {
-  USER = 'user',
-  MODEL = 'model',
-}
-
-export interface Message {
+export interface Note {
   id: string;
-  role: Role;
+  title: string;
   content: string;
+  tags: string[];
+  isPinned: boolean;
+  createdAt: number;
+  updatedAt: number;
 }
